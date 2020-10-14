@@ -1,12 +1,11 @@
-let x = [1, 2, 4, -4, 2];
+let x = [ 2 , 3 , -4 , ]
+let i = 1
 
-let i = 0;
-let min = +Infinity;
-while (i < x.length) {
-  if (x[i] < min) {
-    min = x[i];
-  }
-  i++;
+let min = x[0]
+for (let i = 1 ; i < x.length ; i++){
+    if (x[i] < min){
+        min = x[i]
+    }
 }
 
-console.log(`Min is ${min}`);
+min
